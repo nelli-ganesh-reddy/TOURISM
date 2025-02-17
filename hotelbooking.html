@@ -1,0 +1,138 @@
+<html>
+<head>
+<style>
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 50vh;
+    background: #000;
+    background-image: url("https://www.followmeaway.com/wp-content/uploads/2020/07/5-Star-Hotels-In-Paris-Les-Jardins-du-Faubourg-Paris.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 20px;
+}
+
+.box {
+    position: relative;
+    width: 200px;
+    height: 100px;
+    margin: 20px; /* Reduced margin */
+    opacity: 0.7; /* Changed to decimal for consistency */
+    background: rgba(0,0,0,0.5); /* Added background for better readability */
+    border-radius: 10px; /* Added border radius for rounded corners */
+    overflow: hidden; /* Added to ensure content doesn't overflow */
+}
+
+.container .content {
+    color: #FFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%; /* Ensures content fills the box */
+    text-align: center;
+}
+
+a:link, a:visited {
+    background-color: #ffff47;
+    color: #884347;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    transition: padding 0.3s; /* Added transition for smoother effect */
+}
+
+a:hover, a:active {
+    padding: 30px 50px;
+}
+
+h1 {
+    text-align: center;
+    border-bottom: 3px solid pink;
+    color: #52b8b2;
+    margin: 20px 0;
+}
+
+form {
+    padding: 70px;
+    text-align: center;
+}
+
+input {
+    height: 30px;
+    width: 150px;
+    background-color: lightgrey;
+    color: yellow;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 12px 24px 0 rgba(0, 0, 0, 0.2), 0 10px 30px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 20px; /* Added margin for spacing */
+}
+
+.button {
+    width: 100px;
+    color: #ff0d47;
+}
+
+.button:hover {
+    animation-name: example;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes example {
+    from {background-color: yellow;}
+    to {background-color: blue; color: red;}
+}
+
+</style>
+</head>
+<body>
+<div class="container">
+  
+<div class="box">
+    <div class="content"><a href="C:/Users/nelli/Downloads/heritage.html">
+        <h2>HERITAGE</h2>
+    </a></div>
+</div>
+
+<div class="box">
+    <div class="content"><a href="C:/Users/nelli/Downloads/gallery.html">
+        <h2>GALLERY</h2>
+    </a></div>
+</div>
+
+<div class="box">
+    <div class="content"><a href="C:/Users/nelli/Downloads/tourism.html">
+        <h2>HOME</h2>
+    </a></div>
+</div>
+
+</div>
+<h1>HOTEL BOOKING</h1>
+<form action="/action_page.php"> 
+    <input type="text" name="fname" placeholder="first name"><br>
+    <input type="text" name="lname" placeholder="last name"><br>
+    <input type="text" name="mail" placeholder="E-mail"><br>
+    <input type="text" name="phn" placeholder="phone number"><br>
+    <input type="text" name="nationality" placeholder="nationality"><br>
+    <input type="text" name="address" placeholder="address"><br>
+    <input type="text" name="pin code" placeholder="pin code"><br>
+    <input type="text" name="age" placeholder="age"><br>
+    <input class="button" type="submit" value="Submit">
+</form>
+</body>
+</html>

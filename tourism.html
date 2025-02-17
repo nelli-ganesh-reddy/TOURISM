@@ -1,0 +1,101 @@
+<html>
+<head>
+<style>
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 50vh;
+    background: #000;
+    margin: 0; /* Added to remove default margin */
+    font-family: Arial, sans-serif; /* Added font-family for a better look */
+}
+
+.container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 20px;
+    background-image: url("https://static.wikia.nocookie.net/logopedia/images/1/16/AP_Tourism.jpeg/revision/latest?cb=20200410155608");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    filter: grayscale(0.5);
+}
+
+.box {
+    position: relative;
+    width: 200px;
+    height: 400px;
+    margin: 20px; /* Reduced margin */
+    opacity: 0.7; /* Changed to decimal for consistency */
+    background: rgba(0,0,0,0.5); /* Added background for better readability */
+    border-radius: 10px; /* Added border radius for rounded corners */
+    overflow: hidden; /* Added to ensure content doesn't overflow */
+}
+
+.container .content {
+    color: #FFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%; /* Ensures content fills the box */
+    text-align: center; /* Centering text */
+}
+
+a:link, a:visited {
+    background-color: #ffff47;
+    color: #884347;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    transition: transform 0.3s; /* Added transition for smoother effect */
+}
+
+a:hover, a:active {
+    transform: skewX(20deg) skewY(20deg); /* Combined transforms */
+}
+
+p {
+    color: #884347;
+    padding: 30px;
+    font-size: 30px;
+    text-align: center; /* Centered the paragraph text */
+}
+
+</style>
+</head>
+<body>
+<div class="container">
+
+<div class="box">
+    <div class="content">
+        <a href="C:/Users/nelli/Downloads/heritage.html">
+            <h2>HERITAGE</h2>
+        </a>
+    </div>
+</div>
+
+<div class="box">
+    <div class="content">
+        <a href="C:/Users/nelli/Downloads/gallery.html">
+            <h2>GALLERY</h2>
+        </a>
+    </div>
+</div>
+
+<div class="box">
+    <div class="content">
+        <a href="C:/Users/nelli/Downloads/hotelbooking.html">
+            <h2>HOTEL BOOKING</h2>
+        </a>
+    </div>
+</div>
+
+<p>Andhra Pradesh is a state that has something for everyone. From serene beaches and lush valleys to historical temples and vibrant cities, it's a destination that promises a diverse and enriching travel experience.</p>
+</div>
+</body>
+</html>
